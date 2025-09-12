@@ -47,6 +47,7 @@ export class LoginPage extends Page {
             await this.inputEmailAddress
         );
     }
+    
     public async invalidPassword(): Promise<boolean> {
         return await browser.execute(
             (el: any) => el.checkValidity(),
