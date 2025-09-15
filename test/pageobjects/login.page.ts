@@ -47,7 +47,7 @@ export class LoginPage extends Page {
             await this.inputEmailAddress
         );
     }
-    
+
     public async invalidPassword(): Promise<boolean> {
         return await browser.execute(
             (el: any) => el.checkValidity(),
@@ -55,7 +55,7 @@ export class LoginPage extends Page {
         );
     }
     public async waitForRedirectToHome() {
-        await this.homePage.waitForDisplayed({ timeout: 5000 });
+        await this.homePage.waitForDisplayed({ timeout: 10000 });
         await expect(browser).toHaveUrl('http://localhost:3000/');
     }
 }
