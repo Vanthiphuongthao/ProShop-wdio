@@ -1,0 +1,171 @@
+{
+  "id": {
+    "sessionId": "98a2d641e9a722e32f243269b21ff162",
+    "elementId": "f.FD5F66302E287FCA7DF7BB2AEBBF49B8.d.A48641F4FF1E414F17CC2AD5761160A1.e.41",
+    "element-6066-11e4-a52e-4f735466cecf": "f.FD5F66302E287FCA7DF7BB2AEBBF49B8.d.A48641F4FF1E414F17CC2AD5761160A1.e.41",
+    "locator": {
+      "type": "css",
+      "value": "iframe"
+    },
+    "selector": "iframe",
+    "parent": {
+      "sessionId": "98a2d641e9a722e32f243269b21ff162",
+      "elementId": "f.FD5F66302E287FCA7DF7BB2AEBBF49B8.d.A48641F4FF1E414F17CC2AD5761160A1.e.40",
+      "element-6066-11e4-a52e-4f735466cecf": "f.FD5F66302E287FCA7DF7BB2AEBBF49B8.d.A48641F4FF1E414F17CC2AD5761160A1.e.40",
+      "locator": {
+        "type": "css",
+        "value": ".paypal-buttons"
+      },
+      "selector": ".paypal-buttons",
+      "parent": {
+        "sessionId": "98a2d641e9a722e32f243269b21ff162",
+        "capabilities": {
+          "acceptInsecureCerts": false,
+          "browserName": "chrome",
+          "browserVersion": "139.0.7258.155",
+          "chrome": {
+            "chromedriverVersion": "139.0.7258.155 (206d8aac017ed2a506c9ee9389c39d5d97663c9d-refs/branch-heads/7258@{#2927})",
+            "userDataDir": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir47484_2089389088"
+          },
+          "fedcm:accounts": true,
+          "goog:chromeOptions": {
+            "debuggerAddress": "localhost:62212"
+          },
+          "networkConnectionEnabled": false,
+          "pageLoadStrategy": "normal",
+          "platformName": "windows",
+          "proxy": {},
+          "setWindowRect": true,
+          "strictFileInteractability": false,
+          "timeouts": {
+            "implicit": 0,
+            "pageLoad": 300000,
+            "script": 30000
+          },
+          "unhandledPromptBehavior": "ignore",
+          "webSocketUrl": "ws://localhost:62207/session/98a2d641e9a722e32f243269b21ff162",
+          "webauthn:extension:credBlob": true,
+          "webauthn:extension:largeBlob": true,
+          "webauthn:extension:minPinLength": true,
+          "webauthn:extension:prf": true,
+          "webauthn:virtualAuthenticators": true,
+          "wdio:driverPID": 47484
+        },
+        "visualService": {
+          "defaultOptions": {
+            "addressBarShadowPadding": 6,
+            "autoElementScroll": true,
+            "addIOSBezelCorners": false,
+            "autoSaveBaseline": true,
+            "clearFolder": false,
+            "userBasedFullPageScreenshot": false,
+            "enableLegacyScreenshotMethod": false,
+            "formatImageName": "{tag}-{browserName}-{width}x{height}-dpr-{dpr}",
+            "isHybridApp": false,
+            "savePerInstance": false,
+            "toolBarShadowPadding": 6,
+            "disableBlinkingCursor": false,
+            "disableCSSAnimation": false,
+            "enableLayoutTesting": false,
+            "fullPageScrollTimeout": 1500,
+            "hideScrollBars": true,
+            "waitForFontsLoaded": true,
+            "compareOptions": {
+              "blockOutSideBar": true,
+              "blockOutStatusBar": true,
+              "blockOutToolBar": true,
+              "createJsonReportFiles": false,
+              "diffPixelBoundingBoxProximity": 5,
+              "ignoreAlpha": false,
+              "ignoreAntialiasing": false,
+              "ignoreColors": false,
+              "ignoreLess": false,
+              "ignoreNothing": false,
+              "rawMisMatchPercentage": false,
+              "returnAllCompareData": false,
+              "saveAboveTolerance": 0,
+              "scaleImagesToSameSize": false
+            },
+            "tabbableOptions": {
+              "circle": {
+                "backgroundColor": "#ff0000",
+                "borderColor": "#000",
+                "borderWidth": 1,
+                "fontColor": "#fff",
+                "fontFamily": "Arial",
+                "fontSize": 10,
+                "size": 10,
+                "showNumber": true
+              },
+              "line": {
+                "color": "#000",
+                "width": 1
+              }
+            }
+          },
+          "folders": {
+            "actualFolder": ".tmp\\actual",
+            "baselineFolder": "__snapshots__\\",
+            "diffFolder": ".tmp\\diff"
+          },
+          "_contextManager": {
+            "cachedViewport": {
+              "bottomBar": {
+                "y": 0,
+                "x": 0,
+                "width": 0,
+                "height": 0
+              },
+              "homeBar": {
+                "y": 0,
+                "x": 0,
+                "width": 0,
+                "height": 0
+              },
+              "leftSidePadding": {
+                "y": 0,
+                "x": 0,
+                "width": 0,
+                "height": 0
+              },
+              "rightSidePadding": {
+                "y": 0,
+                "x": 0,
+                "width": 0,
+                "height": 0
+              },
+              "statusBar": {
+                "y": 0,
+                "x": 0,
+                "width": 0,
+                "height": 0
+              },
+              "statusBarAndAddressBar": {
+                "y": 0,
+                "x": 0,
+                "width": 0,
+                "height": 0
+              },
+              "screenSize": {
+                "width": 0,
+                "height": 0
+              },
+              "viewport": {
+                "y": 0,
+                "x": 0,
+                "width": 0,
+                "height": 0
+              }
+            }
+          },
+          "_contextManagers": {}
+        }
+      },
+      "isReactElement": false,
+      "isShadowElement": false
+    },
+    "index": 0,
+    "isReactElement": false,
+    "isShadowElement": false
+  }
+}

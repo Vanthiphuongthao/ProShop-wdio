@@ -1,0 +1,159 @@
+{
+  "id": {
+    "sessionId": "49db926bb4eaa98be4cd93819c87bfd5",
+    "elementId": "f.F52AF6D1AA9C1EA2186C9DAE744D8785.d.E1B5490537FEBFAFB602F9AE41951B67.e.130",
+    "element-6066-11e4-a52e-4f735466cecf": "f.F52AF6D1AA9C1EA2186C9DAE744D8785.d.E1B5490537FEBFAFB602F9AE41951B67.e.130",
+    "locator": {
+      "type": "css",
+      "value": "iframe"
+    },
+    "selector": "iframe",
+    "parent": {
+      "sessionId": "49db926bb4eaa98be4cd93819c87bfd5",
+      "capabilities": {
+        "acceptInsecureCerts": false,
+        "browserName": "chrome",
+        "browserVersion": "140.0.7339.128",
+        "chrome": {
+          "chromedriverVersion": "140.0.7339.128 (36aa3351631d175ee5346a1aaf74ef5d49abe308-refs/branch-heads/7339@{#1850})",
+          "userDataDir": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir3988_1232713127"
+        },
+        "fedcm:accounts": true,
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:50929"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "ignore",
+        "webSocketUrl": "ws://localhost:50924/session/49db926bb4eaa98be4cd93819c87bfd5",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:extension:minPinLength": true,
+        "webauthn:extension:prf": true,
+        "webauthn:virtualAuthenticators": true,
+        "wdio:driverPID": 3988
+      },
+      "visualService": {
+        "defaultOptions": {
+          "addressBarShadowPadding": 6,
+          "autoElementScroll": true,
+          "addIOSBezelCorners": false,
+          "autoSaveBaseline": true,
+          "clearFolder": false,
+          "userBasedFullPageScreenshot": false,
+          "enableLegacyScreenshotMethod": false,
+          "formatImageName": "{tag}-{browserName}-{width}x{height}-dpr-{dpr}",
+          "isHybridApp": false,
+          "savePerInstance": false,
+          "toolBarShadowPadding": 6,
+          "disableBlinkingCursor": false,
+          "disableCSSAnimation": false,
+          "enableLayoutTesting": false,
+          "fullPageScrollTimeout": 1500,
+          "hideScrollBars": true,
+          "waitForFontsLoaded": true,
+          "compareOptions": {
+            "blockOutSideBar": true,
+            "blockOutStatusBar": true,
+            "blockOutToolBar": true,
+            "createJsonReportFiles": false,
+            "diffPixelBoundingBoxProximity": 5,
+            "ignoreAlpha": false,
+            "ignoreAntialiasing": false,
+            "ignoreColors": false,
+            "ignoreLess": false,
+            "ignoreNothing": false,
+            "rawMisMatchPercentage": false,
+            "returnAllCompareData": false,
+            "saveAboveTolerance": 0,
+            "scaleImagesToSameSize": false
+          },
+          "tabbableOptions": {
+            "circle": {
+              "backgroundColor": "#ff0000",
+              "borderColor": "#000",
+              "borderWidth": 1,
+              "fontColor": "#fff",
+              "fontFamily": "Arial",
+              "fontSize": 10,
+              "size": 10,
+              "showNumber": true
+            },
+            "line": {
+              "color": "#000",
+              "width": 1
+            }
+          }
+        },
+        "folders": {
+          "actualFolder": ".tmp\\actual",
+          "baselineFolder": "__snapshots__\\",
+          "diffFolder": ".tmp\\diff"
+        },
+        "_contextManager": {
+          "cachedViewport": {
+            "bottomBar": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "homeBar": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "leftSidePadding": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "rightSidePadding": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "statusBar": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "statusBarAndAddressBar": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "screenSize": {
+              "width": 0,
+              "height": 0
+            },
+            "viewport": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            }
+          }
+        },
+        "_contextManagers": {}
+      }
+    },
+    "index": 0,
+    "isReactElement": false,
+    "isShadowElement": false
+  }
+}

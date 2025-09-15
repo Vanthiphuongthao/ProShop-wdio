@@ -1,0 +1,158 @@
+{
+  "id": {
+    "sessionId": "8c98af367d4a8282386e370837363644",
+    "elementId": "f.F22F02F33EA0132A7B06A2CD536F4F5E.d.0E4211EA7D5C5351C1D63CBF9D442F61.e.71",
+    "element-6066-11e4-a52e-4f735466cecf": "f.F22F02F33EA0132A7B06A2CD536F4F5E.d.0E4211EA7D5C5351C1D63CBF9D442F61.e.71",
+    "locator": {
+      "type": "css",
+      "value": "iframe[title*=\"PayPal\"]"
+    },
+    "selector": "iframe[title*=\"PayPal\"]",
+    "parent": {
+      "sessionId": "8c98af367d4a8282386e370837363644",
+      "capabilities": {
+        "acceptInsecureCerts": false,
+        "browserName": "chrome",
+        "browserVersion": "140.0.7339.128",
+        "chrome": {
+          "chromedriverVersion": "140.0.7339.128 (36aa3351631d175ee5346a1aaf74ef5d49abe308-refs/branch-heads/7339@{#1850})",
+          "userDataDir": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir49312_136984515"
+        },
+        "fedcm:accounts": true,
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:49215"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "ignore",
+        "webSocketUrl": "ws://localhost:49210/session/8c98af367d4a8282386e370837363644",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:extension:minPinLength": true,
+        "webauthn:extension:prf": true,
+        "webauthn:virtualAuthenticators": true,
+        "wdio:driverPID": 49312
+      },
+      "visualService": {
+        "defaultOptions": {
+          "addressBarShadowPadding": 6,
+          "autoElementScroll": true,
+          "addIOSBezelCorners": false,
+          "autoSaveBaseline": true,
+          "clearFolder": false,
+          "userBasedFullPageScreenshot": false,
+          "enableLegacyScreenshotMethod": false,
+          "formatImageName": "{tag}-{browserName}-{width}x{height}-dpr-{dpr}",
+          "isHybridApp": false,
+          "savePerInstance": false,
+          "toolBarShadowPadding": 6,
+          "disableBlinkingCursor": false,
+          "disableCSSAnimation": false,
+          "enableLayoutTesting": false,
+          "fullPageScrollTimeout": 1500,
+          "hideScrollBars": true,
+          "waitForFontsLoaded": true,
+          "compareOptions": {
+            "blockOutSideBar": true,
+            "blockOutStatusBar": true,
+            "blockOutToolBar": true,
+            "createJsonReportFiles": false,
+            "diffPixelBoundingBoxProximity": 5,
+            "ignoreAlpha": false,
+            "ignoreAntialiasing": false,
+            "ignoreColors": false,
+            "ignoreLess": false,
+            "ignoreNothing": false,
+            "rawMisMatchPercentage": false,
+            "returnAllCompareData": false,
+            "saveAboveTolerance": 0,
+            "scaleImagesToSameSize": false
+          },
+          "tabbableOptions": {
+            "circle": {
+              "backgroundColor": "#ff0000",
+              "borderColor": "#000",
+              "borderWidth": 1,
+              "fontColor": "#fff",
+              "fontFamily": "Arial",
+              "fontSize": 10,
+              "size": 10,
+              "showNumber": true
+            },
+            "line": {
+              "color": "#000",
+              "width": 1
+            }
+          }
+        },
+        "folders": {
+          "actualFolder": ".tmp\\actual",
+          "baselineFolder": "__snapshots__\\",
+          "diffFolder": ".tmp\\diff"
+        },
+        "_contextManager": {
+          "cachedViewport": {
+            "bottomBar": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "homeBar": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "leftSidePadding": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "rightSidePadding": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "statusBar": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "statusBarAndAddressBar": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "screenSize": {
+              "width": 0,
+              "height": 0
+            },
+            "viewport": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            }
+          }
+        },
+        "_contextManagers": {}
+      }
+    },
+    "isReactElement": false,
+    "isShadowElement": false
+  }
+}

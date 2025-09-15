@@ -23,8 +23,15 @@ export const config: WebdriverIO.Config = {
     // of the config file unless it's absolute.
     //
     specs: [
-        './test/specs/**/*.ts'
+        // './test/specs/**/*.ts'
+        // './test/specs/add_to_cart.test.js'
+        // './test/edit_cart.test.js'
+        './test/specs/CartCheckOut.test.js'
+        // './test/specs/OrderHistory.test.js'
+        // './test/specs/paypal.test.js'
+ 
     ],
+    // baseUrl: 'https://www.sandbox.paypal.com/', // Uncomment and set if you want to use relative URLs
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -45,14 +52,30 @@ export const config: WebdriverIO.Config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 1,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        browserName: 'chrome'
+        browserName: 'chrome',
+        'goog:chromeOptions': {
+      // Vô hiệu hóa tính năng lưu địa chỉ tự động của Chrome
+      prefs: {
+        'credentials_enable_service': false,
+        'profile.password_manager_enabled': false,
+        'autofill.profile_enabled': false,
+      },
+      // Thêm cờ để vô hiệu hóa pop-up
+      args: [
+        '--disable-infobars',
+        '--disable-extensions',
+        '--no-sandbox',
+        '--disable-autofill-forms' 
+        // Vô hiệu hóa tính năng autofill
+      ]
+    }
     }],
 
     //
@@ -131,7 +154,7 @@ export const config: WebdriverIO.Config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 60000
+        timeout: 90000
     },
 
     //

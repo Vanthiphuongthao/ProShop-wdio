@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "iframe[name*=\"checkout\"], iframe[src*=\"paypal.com\"]"
+}

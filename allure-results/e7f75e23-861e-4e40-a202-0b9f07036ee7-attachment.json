@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "ancestor::div[contains(@class,\"row\")]//button[contains(@class,\"remove\")]"
+}
