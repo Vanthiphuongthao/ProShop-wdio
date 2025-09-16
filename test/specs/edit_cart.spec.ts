@@ -1,6 +1,7 @@
-const loginPage = require('../../pageobjects/login.page');
-const cartPage = require('../../pageobjects/cart.page');
-const productsPage = require('../../pageobjects/products.page');
+import { $, browser, expect } from '@wdio/globals';
+import loginPage from '../pageobjects/login.page';
+import cartPage from '../pageobjects/cart.page';
+import productsPage from '../pageobjects/products.page';
 
 describe('Edit Cart Functionality (via Add to Cart)', () => {
     // Trước mỗi test: clear storage, login
@@ -19,7 +20,7 @@ describe('Edit Cart Functionality (via Add to Cart)', () => {
 
     it('TC_E2E_PA0_006 - Update quantity in Cart', async () => {
         // Add iPhone 13 Pro
-        await browser.url('http://localhost:3000/product/68c10b39090273763ad95c9a');
+        await browser.url('http://localhost:3000/product/68c654b2f62f2bbc3db4e5a4');
         await productsPage.addToCart();
         
         // Update quantity = 2
@@ -31,11 +32,11 @@ describe('Edit Cart Functionality (via Add to Cart)', () => {
 
     it('TC_E2E_PA0_007 - Remove product from Cart', async () => {
         // Add Airpods
-        await browser.url('http://localhost:3000/product/68c10b39090273763ad95c99');
+        await browser.url('http://localhost:3000/product/68c654b2f62f2bbc3db4e5a3');
         await productsPage.addToCart();
 
         // Remove Airpods
-        const productName = "Airpods Wireless Bluetooth Headphones"; // Define the variable
+        const productName = "Airpods Wireless Bluetooth Headphones";
         await cartPage.removeProductByName(productName);
 
         // Verify product is removed
@@ -45,7 +46,7 @@ describe('Edit Cart Functionality (via Add to Cart)', () => {
 
     it('TC_E2E_PA0_008 - Set quantity exceeding stock', async () => {
         // Add Playstation 5
-        await browser.url('http://localhost:3000/product/68c10b39090273763ad95c9a');
+        await browser.url('http://localhost:3000/product/68c654b2f62f2bbc3db4e5a4');
         await productsPage.addToCart();
 
         // Set quantity = 11 (exceed stock)
@@ -57,7 +58,7 @@ describe('Edit Cart Functionality (via Add to Cart)', () => {
 
     it('TC_E2E_PA0_009 - Set quantity to 0 (should keep 1)', async () => {
         // Add Camera
-        await browser.url('http://localhost:3000/product/68c10b39090273763ad95c9b');
+        await browser.url('http://localhost:3000/product/68c654b2f62f2bbc3db4e5a5');
         await productsPage.addToCart();
 
         // Set quantity = 0, CartPage sẽ giữ 1

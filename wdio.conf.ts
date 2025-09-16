@@ -24,11 +24,11 @@ export const config: WebdriverIO.Config = {
     //
     specs: [
         // './test/specs/**/*.ts'
-        // './test/specs/add_to_cart.test.js'
-        // './test/edit_cart.test.js'
-        './test/specs/CartCheckOut.test.js'
-        // './test/specs/OrderHistory.test.js'
-        // './test/specs/paypal.test.js'
+        // './test/specs/addToCart.spec.ts'
+        // './test/specs/edit_cart.spec.ts'
+        // './test/specs/CartCheckOut.spec.ts'
+        // './test/specs/OrderHistory.spec.ts'
+        './test/specs/paypal.spec.ts'
  
     ],
     // baseUrl: 'https://www.sandbox.paypal.com/', // Uncomment and set if you want to use relative URLs
