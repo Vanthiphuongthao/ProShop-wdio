@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[data-testid=\"cancel-link\"]\"}\n  (Session info: chrome=140.0.7339.128)",
+  "stacktrace": "\tGetHandleVerifier [0x0x7ff7f23d3135+79493]\n\tGetHandleVerifier [0x0x7ff7f23d3190+79584]\n\t(No symbol) [0x0x7ff7f21501ba]\n\t(No symbol) [0x0x7ff7f21a8067]\n\t(No symbol) [0x0x7ff7f21a832c]\n\t(No symbol) [0x0x7ff7f21fbe27]\n\t(No symbol) [0x0x7ff7f21d074f]\n\t(No symbol) [0x0x7ff7f21f8b8b]\n\t(No symbol) [0x0x7ff7f21d04e3]\n\t(No symbol) [0x0x7ff7f2198e92]\n\t(No symbol) [0x0x7ff7f2199c63]\n\tGetHandleVerifier [0x0x7ff7f2690dfd+2954061]\n\tGetHandleVerifier [0x0x7ff7f268b06a+2930106]\n\tGetHandleVerifier [0x0x7ff7f26ab397+3061991]\n\tGetHandleVerifier [0x0x7ff7f23ed64e+187294]\n\tGetHandleVerifier [0x0x7ff7f23f55bf+219919]\n\tGetHandleVerifier [0x0x7ff7f23dc2d4+116772]\n\tGetHandleVerifier [0x0x7ff7f23dc489+117209]\n\tGetHandleVerifier [0x0x7ff7f23c2658+11176]\n\tBaseThreadInitThunk [0x0x7ffaeb077374+20]\n\tRtlUserThreadStart [0x0x7ffaec5fcc91+33]\n"
+}

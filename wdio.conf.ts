@@ -1,4 +1,7 @@
+
 export const config: WebdriverIO.Config = {
+    
+
     //
     // ====================
     // Runner Configuration
@@ -77,6 +80,7 @@ export const config: WebdriverIO.Config = {
       ]
     }
     }],
+    
 
     //
     // ===================
@@ -135,6 +139,7 @@ export const config: WebdriverIO.Config = {
     // before running any tests.
     framework: 'mocha',
     
+    
     //
     // The number of times to retry the entire specfile when it fails as a whole
     // specFileRetries: 1,
@@ -156,6 +161,8 @@ export const config: WebdriverIO.Config = {
         ui: 'bdd',
         timeout: 90000
     },
+
+    
 
     //
     // =====

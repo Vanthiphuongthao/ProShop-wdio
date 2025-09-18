@@ -1,64 +1,26 @@
 import { $, browser } from '@wdio/globals';
+import Page from './page';
 
-class ShippingPage {
-    // Shipping inputs
-    public get inputAddress() {
-        return $('#address');
-    }
-    public get inputCity() {
-        return $('#city');
-    }
-    public get inputPostalCode() {
-        return $('#postalCode');
-    }
-    public get inputCountry() {
-        return $('#country');
-    }
+class ShippingPage extends Page {
+    public get inputAddress() { return $('#address'); }
+    public get inputCity() { return $('#city'); }
+    public get inputPostalCode() { return $('#postalCode'); }
+    public get inputCountry() { return $('#country'); }
+    public get btnContinue() { return $('.btn.btn-primary'); }
+    public get errorMessages() { return $('.error'); }
+    public async open() { await super.open('/shipping'); }
 
-    // Buttons
-    public get btnContinue() {
-        return $('.btn.btn-primary');
-    }
-    public get btnPlaceOrder() {
-        return $('button=Place Order');
-    }
-
-    // Error messages
-    public get errorMessages() {
-        return $('.error');
-    }
-
-    // Methods
-    public async fillShipping(address: string, city: string, postalCode: string, country: string): Promise<void> {
-        await this.inputAddress.waitForDisplayed({ timeout: 30000 });
+    public async fillShipping(address: string, city: string, postalCode: string, country: string) {
         await this.inputAddress.setValue(address);
-
-        await this.inputCity.waitForDisplayed({ timeout: 5000 });
         await this.inputCity.setValue(city);
-
-        await this.inputPostalCode.waitForDisplayed({ timeout: 5000 });
         await this.inputPostalCode.setValue(postalCode);
-
-        await this.inputCountry.waitForDisplayed({ timeout: 5000 });
         await this.inputCountry.setValue(country);
+        await this.continue();
     }
-    
-    public async continue(): Promise<void> {
+    public async continue() { 
+        await this.btnContinue.waitForDisplayed({ timeout: 10000 });
+        await this.btnContinue.waitForClickable({ timeout: 10000 });
         await this.btnContinue.click();
-    }
-    public async placeOrder(): Promise<void> {
-        await this.btnPlaceOrder.click();
-    }
-    
-    // There were no selectors for payment methods, so I commented this out
-    // public async selectPayment(method: string = 'PayPal'): Promise<void> {
-    //     if (method === 'PayPal') {
-    //         await this.paymentPayPal.click();
-    //     } else {
-    //         await this.paymentCreditCard.click();
-    //     }
-    // }
 }
-
-// Export instance for direct use
+}
 export default new ShippingPage();

@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(., 'Complete Purchase')]\"}\n  (Session info: chrome=140.0.7339.128)",
+  "stacktrace": "\tGetHandleVerifier [0x0x7ff6b8da3135+79493]\n\tGetHandleVerifier [0x0x7ff6b8da3190+79584]\n\t(No symbol) [0x0x7ff6b8b201ba]\n\t(No symbol) [0x0x7ff6b8b78067]\n\t(No symbol) [0x0x7ff6b8b7832c]\n\t(No symbol) [0x0x7ff6b8bcbe27]\n\t(No symbol) [0x0x7ff6b8ba074f]\n\t(No symbol) [0x0x7ff6b8bc8b8b]\n\t(No symbol) [0x0x7ff6b8ba04e3]\n\t(No symbol) [0x0x7ff6b8b68e92]\n\t(No symbol) [0x0x7ff6b8b69c63]\n\tGetHandleVerifier [0x0x7ff6b9060dfd+2954061]\n\tGetHandleVerifier [0x0x7ff6b905b06a+2930106]\n\tGetHandleVerifier [0x0x7ff6b907b397+3061991]\n\tGetHandleVerifier [0x0x7ff6b8dbd64e+187294]\n\tGetHandleVerifier [0x0x7ff6b8dc55bf+219919]\n\tGetHandleVerifier [0x0x7ff6b8dac2d4+116772]\n\tGetHandleVerifier [0x0x7ff6b8dac489+117209]\n\tGetHandleVerifier [0x0x7ff6b8d92658+11176]\n\tBaseThreadInitThunk [0x0x7ffaeb077374+20]\n\tRtlUserThreadStart [0x0x7ffaec5fcc91+33]\n"
+}

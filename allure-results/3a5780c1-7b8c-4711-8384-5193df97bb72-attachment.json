@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "p.notification.notification-critical[role=\"alert\"]"
+}

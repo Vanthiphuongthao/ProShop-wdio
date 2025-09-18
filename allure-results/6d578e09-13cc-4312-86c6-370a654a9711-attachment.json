@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "a[data-testid=\"cancel-link\"], a.CancelLink_cancelLink_TmQhW"
+}
